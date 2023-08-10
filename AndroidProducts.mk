@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lisa.mk
+    $(LOCAL_DIR)/droidx_lisa.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lisa-user \
-    lineage_lisa-userdebug \
-    lineage_lisa-eng
+    droidx_lisa-user \
+    droidx_lisa-userdebug \
+    droidx_lisa-eng
