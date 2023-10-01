@@ -17,6 +17,9 @@ $(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 # DROIDX_GAPPS
 DROIDX_GAPPS := true
 
+# DROID_OFFICIAL
+DROIDX_BUILD_TYPE := OFFICIAL 
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lisa
 PRODUCT_MANUFACTURER := Xiaomi
