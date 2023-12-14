@@ -9,6 +9,10 @@ DEVICE_PATH := device/xiaomi/lisa
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
+# Build Rules
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+BUILD_BROKEN_DUP_RULES := true
+
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := lisa
 
