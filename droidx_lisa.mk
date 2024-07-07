@@ -12,13 +12,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/lisa/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
+
+# DROIDX_GAPPS
+DROIDX_GAPPS := true
+
+# DROID_OFFICIAL
+DROIDX_BUILD_TYPE := OFFICIAL
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lisa
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2109119DG
-PRODUCT_NAME := lineage_lisa
+PRODUCT_NAME := droidx_lisa
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
